@@ -2131,7 +2131,7 @@ int fdt_overlay_apply(void *fdt, void *fdto);
  *      the targeted node offset in the base device tree
  *      Negative error code on error
  */
-int fdt_overlay_target_offset(const void *fdt, const void *fdto,
+extern int fdt_overlay_target_offset(const void *fdt, const void *fdto,
 			      int fragment_offset, char const **pathp);
 
 /**********************************************************************/
